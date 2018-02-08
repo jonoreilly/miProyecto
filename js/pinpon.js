@@ -87,7 +87,7 @@ function colObj(obj1, obj2)
         {
           if((obj1.alto+obj2.alto)<(obj1.posy-obj2.posy)>(0))
           {
-            if(obj1.spdy<0){obj.bounce("y");}
+            if(obj1.spdy<0){obj1.bounce("y");}
           }
           if((obj1.alto+obj2.alto)<(-(obj1.posy-obj2.posy))>(0))
           {
